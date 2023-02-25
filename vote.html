@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #table {
+
+
+            align-items: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-left: 120px;
+        }
+
+        #fname,
+        #lname,
+        #email
+        {
+
+            width: 300px;
+            height: 30px;
+        }
+        #gender{
+            padding-left: 15px;
+        }
+
+        #h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            margin-left: 120px;
+            margin-top: 45px;
+            margin-bottom: 65px;
+        }
+
+        img {
+            float: right;
+            margin-right: 125px;
+            margin-top: 65px;
+            height: 400px;
+            width: 560px;
+            border-radius: 15px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <img src="gif2.gif" alt="gif">
+        <h2 id="h1">ENTER CANDIDATE DETAILS</h2>
+        <div id="table">
+
+            <tr>
+                <td>FIRST NAME</td><br>
+                <td><input type="text" placeholder="Enter First Name" id="fname"></td>
+            </tr><br><br>
+            <tr>
+                <td>LAST NAME</td><br>
+                <td><input type="text" placeholder="Enter Last Name" id="lname"></td>
+            </tr><br><br>
+            <tr>
+                <td>DOB</td><br>
+                <td><input type="text" placeholder="mm/dd/YYYY" id="email"></td>
+            </tr><br><br>
+            <tr>
+                <td>GENDER</td><br>
+                <td><input type="radio" value="Male" name="gender" id="gender1"><label for="gender1">MALE</label></td>
+                <td><input type="radio" value="Female" name="gender" id="gender"><label for="gender2">FEMALE</label></td>
+
+            </tr><br><br>
+
+
+            <input style="border-radius: 3px; margin-left: 50px; width: 200px;height: 30px;" type="submit"
+                value="REGISTER" onClick="vote()" />
+            </table>
+
+        </div>
+        <br><br>
+
+
+        <script src="script.js"></script>
+
+    </body>
+</body>
+
+</html>

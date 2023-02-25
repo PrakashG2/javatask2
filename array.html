@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #input {
+
+            width: 450px;
+            height: 40px;
+            border: 2px rgb(0, 0, 0) solid;
+            border-radius: 5px;
+            margin-left: 35%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 22px;
+            margin-bottom: 15px;
+            border-color: aliceblue;
+
+        }
+
+        #outbox {
+            width: 450px;
+            height: 40px;
+            border: 2px rgb(0, 0, 0) solid;
+            border-radius: 5px;
+            margin-left: 35%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 22px;
+            margin-bottom: 15px;
+            border-color: aliceblue;
+
+        }
+
+
+
+        #btn1 {
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 575px;
+            align-items: right;
+            border-radius: 5px;
+            border-color: aliceblue;
+            font-weight: bolder;
+        }
+        #btn1:hover{
+            border-color: rgb(0, 125, 235);
+            color: #0091ff;            
+
+        }
+
+        #btn2 {
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 20px;
+            align-items: right;
+            border-radius: 5px;
+            border-color: aliceblue;
+            font-weight: bolder;
+        }
+        #btn2:hover{
+            border-color: rgb(0, 125, 235);  
+            color: #0091ff;            
+
+        }
+
+        #btn3 {
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 573px;
+            align-items: right;
+            border-radius: 5px;
+            border-color: aliceblue;
+            font-weight: bolder;
+        }
+        #btn3:hover{
+            border-color: rgb(0, 125, 235);   
+            color: #0091ff;           
+
+        }
+
+        #btn4 {
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 20px;
+            align-items: right;
+            border-radius: 5px;
+            border-color: aliceblue;
+            font-weight: bolder;
+        }
+        #btn4:hover{
+            border-color: rgb(0, 125, 235);   
+            color: #0091ff;           
+
+        }
+
+        #btn5 {
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 580px;
+            align-items: right;
+            border-radius: 5px;
+            border-color: aliceblue;
+            font-weight: bolder;
+        }
+        #btn5:hover{
+            border-color: rgb(0, 125, 235);   
+            color: #0091ff;           
+
+        }
+
+        #btn6 {
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 585px;
+            align-items: right;
+            border-radius: 5px;
+            border-color: aliceblue;
+            font-weight: bolder;
+        }
+        #btn6:hover{
+            border-color: rgb(0, 125, 235);   
+            color: #0091ff;           
+
+        }
+
+        #btn7 {
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 20px;
+            align-items: right;
+            border-radius: 5px;
+            border-color: aliceblue;
+            font-weight: bolder;
+        }
+        #btn7:hover{
+            border-color: rgb(0, 125, 235);   
+            color: #0091ff;           
+
+        }
+
+        #btn8 {
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 585px;
+            align-items: right;
+            border-radius: 5px;
+            border-color: aliceblue;
+            font-weight: bolder;
+        }
+        #btn8:hover{
+            border-color: rgb(0, 125, 235);   
+            color: #0091ff;           
+
+        }
+
+        #btn9 {
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 20px;
+            align-items: right;
+            border-radius: 5px;
+            border-color: aliceblue;
+            font-weight: bolder;
+        }
+        #btn9:hover{
+            border-color: rgb(0, 125, 235);     
+            color: #0091ff;         
+
+        }
+
+        #btn10 {
+            padding: 10px;
+            margin-top: 10px;
+            margin-left: 580px;
+            align-items: right;
+            border-radius: 5px;
+            border-color: aliceblue;
+            font-weight: bolder;
+        }
+        #btn10:hover{
+            border-color: rgb(0, 125, 235);    
+            color: #0091ff;          
+
+        }
+
+        body {
+            background: #30E8BF;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #FF8235, #30E8BF);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <h1
+        style="margin-left: 640px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: aliceblue;">
+        ENTER
+        INPUT</h1>
+
+    <div class="buttons">
+        <input placeholder="Input" type="text" id="input" name="input" id="input">
+        <br>
+        <input placeholder="Output" id="outbox" type="textbox" name="display">
+        <br>
+
+        <input type="button" style="width: 140px;" value="ADD AT BEGINING" onclick="bigining()" ID="btn1">
+        <input type="button" style="width: 140px;" value="ADD AT ENDING" onclick="add()" ID="btn2"><br>
+        <input type="button" style="width: 140px;" value="REMOVE FIRST" onclick="shift()" ID="btn3">
+        <input type="button" style="width: 140px;" value="REMOVE LAST" onclick="pop()" ID="btn4"><br>
+        <input type="button" style="width: 290px;" value="SORT" onclick="sort()" ID="btn5"><br>
+        <input type="button" style="width: 130px;" value="FOR" onclick="forloop()" ID="btn6">
+        <input type="button" style="width: 130px;" value="FOR EACH" onclick="foreach()" ID="btn7"><br>
+        <input type="button" style="width: 130px;" value="FOR IN" onclick="forinloop()" ID="btn8">
+        <input type="button" style="width: 130px;" value="FOR OFF" onclick="foroff()" ID="btn9"><br>
+        <input type="button" style="width: 290px;" value="PRINT" onclick="print()" ID="btn10">
+        <input type="button" style="width: 290px;" value="DATE AND TIME" onclick="date()" ID="btn10">
+    </div>
+
+    <h1 style="text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;color: azure;"id="out"></h1>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
